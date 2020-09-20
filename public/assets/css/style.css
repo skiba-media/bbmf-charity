@@ -316,7 +316,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav .get-started a:hover {
-  background: #00c28e;
+  background: #8860D0;
   color: #fff;
 }
 
@@ -587,6 +587,48 @@ section {
   background: #8860D0;
   border-radius: 4px;
   color: #fff;
+  -webkit-box-shadow: 0px 1px 10px 5px rgba(0,0,0,0.29); 
+box-shadow: 0px 1px 10px 5px rgba(0,0,0,0.29);
+}
+.why-us .content.light {
+  padding: 30px;
+  background: #ffffff;  
+  border-radius: 4px;
+  color: rgb(31, 31, 31);
+  -webkit-box-shadow: 0px 1px 10px 5px rgba(0,0,0,0.29); 
+box-shadow: 0px 1px 10px 5px rgba(0,0,0,0.29);
+
+}
+.why-us .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.why-us .content ul li {
+  padding: 10px 0 0 28px;
+  position: relative;
+}
+
+
+
+.why-us .content.light ul i {
+  left: 0;
+  top: 7px;
+  position: absolute;
+  font-size: 20px;
+  color: #8860D0;
+}
+
+.why-us .content ul i {
+  left: 0;
+  top: 7px;
+  position: absolute;
+  font-size: 20px;
+  color: #5ee085;
+}
+
+.why-us .content p:last-child {
+  margin-bottom: 0;
 }
 
 .why-us .content h3 {
@@ -659,6 +701,11 @@ section {
 
 .cta h3 {
   color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+}
+.cta h2 {
+  color: #fff;
   font-size: 28px;
   font-weight: 700;
 }
@@ -685,6 +732,12 @@ section {
 .cta .cta-btn:hover {
   background: #8860D0;
   border: 2px solid #8860D0;
+}
+
+.cta ol li {
+  color: #fff;
+  text-align: left;
+  font-size: 14px;
 }
 
 /*--------------------------------------------------------------
@@ -1143,10 +1196,14 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .php-email-form input, .contact .php-email-form textarea, .contact .php-email-form select {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
+}
+
+.custom-select{
+  height: 44px;
 }
 
 .contact .php-email-form input {

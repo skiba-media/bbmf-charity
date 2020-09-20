@@ -140,6 +140,17 @@
     return false;
   });
 
+  $(".read-more[data-toggle='collapse']").click(function() {
+    console.log($(this).text())
+    if ($(this).text() == 'read more') {
+        $(this).text('read less');
+    } else {
+        $(this).text('read more');
+    }
+  });
+
+  
+
   // jQuery counterUp
   $('[data-toggle="counter-up"]').counterUp({
     delay: 10,
